@@ -4,8 +4,8 @@ $(function() {
         moveFirstSlide = function(){
             var firstItem = carouselList.find("li:first"),
                 lastItem = carouselList.find("li:last");
-                lastItem.after(firstItem);
-                carouselList.css({marginLeft: 0});
+            lastItem.after(firstItem);
+            carouselList.css({marginLeft: 0});
         };
     
     var changeSlide = function(){
