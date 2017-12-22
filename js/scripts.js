@@ -6,9 +6,9 @@ $(function() {
             lastItem = carouselList.find("li:last");
         lastItem.after(firstItem);
         carouselList.css({marginLeft: 0});
-        }
+    }
 
-    function changeSlide (){
+    function changeSlide() {
         carouselList.animate({'marginLeft':-400}, 1000, moveFirstSlide);
     }
 
